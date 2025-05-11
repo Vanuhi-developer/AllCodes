@@ -1,0 +1,1 @@
+ /home/vanuhi/AndroidStudioProjects/my_application2/.dart_tool/flutter_build/4db13f3a47d5b2daa90f4f80814a33af/native_assets.yaml: 
