@@ -1,0 +1,79 @@
+{
+  "name": "BlynkEthernet_STM32_WM",
+  "version": "1.2.2",
+  "description": "Build a smartphone app for your project in minutes. Blynk allows creating IoT solutions easily. It supports  WiFi, BLE, Bluetooth, Ethernet, GSM, USB, Serial. Works with many boards like ESP8266, ESP32, Arduino UNO, Nano, Due, Mega, Zero, MKR100, Yun, Raspberry Pi, Particle, Energia, ARM mbed, Intel Edison/Galileo/Joule, BBC micro:bit, DFRobot, RedBearLab, Microduino, LinkIt ONE ...",
+  "keywords": "sensors, control, device, smartphone, mobile, app, web, cloud, communication, protocol, iot, lan8742a, lan8720, wifi, ble, bluetooth, ethernet, usb, serial, gsm, gprs, data, esp8266, http",
+  "authors":
+  {
+    "name":  "Khoi Hoang",
+    "url":   "https://github.com/khoih-prog",
+    "maintainer": true
+  },
+  "repository":
+  {
+    "type": "git",
+    "url": "//https://github.com/khoih-prog/BlynkEthernet_STM32_WM"
+  },
+  "homepage": "https://github.com/khoih-prog/BlynkEthernet_STM32_WM",
+  "export": {
+    "exclude": [
+      "linux",
+      "extras",
+      "tests"
+    ]
+  },
+  "dependencies": 
+  [
+    {
+      "owner": "blynkkk",
+      "name": "Blynk",
+      "version": "^1.0.1",
+      "platforms": ["*"]
+    },
+    {
+      "owner": "stm32duino",
+      "name": "STM32duino LwIP",
+      "version": "^2.1.2",
+      "platforms": ["ststm32", "stm32"]
+    },
+    {
+      "owner": "stm32duino",
+      "name": "STM32Ethernet",
+      "version": "^1.2.0",
+      "platforms": ["ststm32", "stm32"]
+    },
+    {
+      "owner": "khoih-prog",
+      "name": "EthernetWebServer_STM32",
+      "version": "^1.2.0",
+      "platforms": ["ststm32", "stm32"]
+    },
+    {
+      "owner": "khoih-prog",
+      "name": "DoubleResetDetector_Generic",
+      "version": "^1.7.2",
+      "platforms": ["*"]
+    },
+    {
+      "owner": "khoih-prog",
+      "name": "FlashStorage_STM32",
+      "version": "^1.1.0",
+      "platforms": ["ststm32", "stm32"]
+    },
+    {
+      "owner": "uipethernet",
+      "name": "UIPEthernet",
+      "version": "^2.0.9",
+      "platforms": ["*"]
+    },
+    {
+      "owner": "arduino-libraries",
+      "name": "Ethernet",
+      "version": "^2.0.0",
+      "platforms": ["*"]
+    }
+  ],
+  "frameworks": "*",
+  "platforms": ["ststm32", "stm32"],
+  "examples": "examples/*/*/*.ino"
+}
